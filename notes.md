@@ -78,4 +78,6 @@ Start a new MVC project
 - define a default master layout page for your app
 - if you want to set a different master page for a particular page, you can do that on the content page
 
-## 
+## Controller
+# Controller > HomeController.cs
+- This where you can define the routing
