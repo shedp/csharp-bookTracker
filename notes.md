@@ -117,3 +117,10 @@ parent class for many of the derived classes that have associated helpers
   JavaScriptResult - returns a script that can be executed on the client
   fileResult - returns binary output to write response
   EmptyResult - represents a return value that is used if the action method must return a null result
+
+## Database
+-you may need to download a package for entity framework
+- eg. for SQLite you will need to use: `dotnet add package Microsoft.EntityFrameworkCore.Sqlite`
+- `dotnet tool install --global dotnet-ef`
+
+- add migrations with the following `dotnet ef migrations add yourMigrationName`
