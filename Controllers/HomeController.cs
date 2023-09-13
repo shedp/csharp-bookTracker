@@ -6,6 +6,7 @@ namespace csharp_intro.Controllers;
 
 public class HomeController : Controller
 {
+    // action methods: Home & Privacy
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
