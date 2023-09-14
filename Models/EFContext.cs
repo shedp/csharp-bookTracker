@@ -11,7 +11,9 @@ namespace csharp_intro.Models
         public DbSet<Category> Category { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite(@"/Users/sheenadiep/Desktop/coding/csharp/csharp-intro/db/category.db");
+            => options.UseSqlite(@"Data Source=/Users/sheenadiep/Desktop/coding/csharp/csharp-intro/db/category.db");
+
     }
 
 }
+
