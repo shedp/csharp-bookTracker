@@ -24067,8 +24067,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/sheenadiep/Desktop/coding/csharp/csharp-intro/Views/Data/Index.cshtml",
-      "TargetPath": "Views\\Data\\Index.cshtml",
+      "FilePath": "/Users/sheenadiep/Desktop/coding/csharp/csharp-intro/Views/Category/Index.cshtml",
+      "TargetPath": "Views\\Category\\Index.cshtml",
       "FileKind": "mvc"
     }
   ]

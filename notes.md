@@ -77,6 +77,7 @@ Start a new MVC project
 # Views > _ViewStart.cshtml
 - define a default master layout page for your app
 - if you want to set a different master page for a particular page, you can do that on the content page
+- .cshtml pages are Razor pages which will allow you to embed c# into html using the @
 
 ## Controller
 # Controller > HomeController.cs

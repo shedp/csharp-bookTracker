@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace csharp_intro.Models;
 
-public class Category
+public class Book
 {
     // type prop and tab key twice to get a shortcut
     // add a decorator to define the key
@@ -10,8 +10,10 @@ public class Category
     public int Id { get; set; }
     [Required]
     public string Name { get; set; }
-    public int DisplayOrder { get; set; }
-    public DateTime CreatedDateTime { get; set; } = DateTime.Now;
-
+    public DateTime StartDate { get; set; }
+    public DateTime EndDate { get; set; }
+    public string Status { get; set; }
+    public int Rating { get; set; }
+    public int BookFormat { get; set; }
     // we could have done this using a sql script
 }
