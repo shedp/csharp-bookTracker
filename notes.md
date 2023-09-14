@@ -124,3 +124,4 @@ parent class for many of the derived classes that have associated helpers
 - `dotnet tool install --global dotnet-ef`
 
 - add migrations with the following `dotnet ef migrations add yourMigrationName`
+- update a migration/database `dotnet ef database update`
