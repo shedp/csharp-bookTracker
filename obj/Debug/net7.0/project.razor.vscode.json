@@ -24065,6 +24065,11 @@
       "FilePath": "/Users/sheenadiep/Desktop/coding/csharp/csharp-intro/Views/Home/About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sheenadiep/Desktop/coding/csharp/csharp-intro/Views/Data/Index.cshtml",
+      "TargetPath": "Views\\Data\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
