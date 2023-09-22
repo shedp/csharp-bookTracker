@@ -1,3 +1,5 @@
+<!-- project file used to declare how we are going to build the project -->
+
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
